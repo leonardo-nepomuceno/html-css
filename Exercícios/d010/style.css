@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 200px;
+    background-image: linear-gradient(to bottom, #3CD782, #175131);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+header > h1{
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+p#subtitulo {
+    padding-top: 15px;
+}
+header > nav{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+
+nav > a{
+    margin-right: 20px;
+    color:white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+
+}
+
+main{
+    width: 800px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+
+article > h1{
+    font-family: idroid;
+    background-image: linear-gradient(to right, #84E1AD 1%, white);
+    color:  #175131;
+    padding-left: 3px;
+}
+
+article > h2{
+    font-family: idroid;
+    background-image: linear-gradient(to right, #84E1AD 1%, white);
+    color:  #175131;
+    padding-left: 3px;
+}
+
+iframe{
+    padding: 40px;
+    margin: 6px;
+    background-color: #175131;
+}
